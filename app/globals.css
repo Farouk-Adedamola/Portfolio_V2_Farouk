@@ -2,10 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 body {
-  background-image: url("../public/noise.png");
+  background-image: url('../public/noise.png');
   background-size: 400px 400px;
   background-position: 0 0;
 }
@@ -15,29 +13,6 @@ body {
     text-wrap: balance;
   }
 }
-
-
-/* Custom scrollbar for webkit browsers (Chrome, Safari, Edge) */
-.custom-scrollbar::-webkit-scrollbar {
-  width: 12px; /* Adjust scrollbar width */
-}
-
-.custom-scrollbar::-webkit-scrollbar-track {
-  background: #2d2d2d; /* Track background color */
-}
-
-.custom-scrollbar::-webkit-scrollbar-thumb {
-  background-color: #4a4a4a; /* Scrollbar thumb color */
-  border-radius: 10px; /* Rounded corners for thumb */
-  border: 3px solid #2d2d2d; /* Padding around thumb */
-}
-
-/* For Firefox */
-.custom-scrollbar {
-  scrollbar-width: thin; /* Makes the scrollbar thinner */
-  scrollbar-color: #4a4a4a #2d2d2d; /* Scrollbar thumb and track colors */
-}
-
 
 @layer base {
   :root {
@@ -104,8 +79,6 @@ body {
   }
 }
 
-
-
 @layer components {
   .skill-shadow-light {
     @apply shadow-[0_50px_100px_-20px_rgba(50,50,93,0.25),0_30px_60px_-30px_rgba(0,0,0,0.3),inset_0_-2px_6px_0_rgba(10,37,64,0.35)];
@@ -118,7 +91,4 @@ body {
     @apply scale-[1.1] transition-all duration-500;
     @apply shadow-[0_10px_20px_rgba(0,0,0,0.7),0_6px_6px_rgba(0,0,0,0.83)];
   }
-  }
-
-
-
+}

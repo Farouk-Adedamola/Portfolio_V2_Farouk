@@ -5,18 +5,18 @@ import Button from '@/components/Button/Button';
 
 const Hero = () => {
   return (
-    <section className="conatiner mx-auto px-4 mt-12">
+    <section className=" mx-auto px-4 mt-12">
       <section className="flex flex-col gap-4">
         <div className="flex flex-row items-baseline gap-2 ">
           <Text
-            className="font-medium text-[80px]"
+            className="font-medium text-[50px] 2xl:text-[60px]"
             font="product-sans"
             weight="medium"
           >
             Hi, I&apos;m
           </Text>
           <Text
-            className="font-sf-regular text-[80px] font-bold text-zinc-800 dark:text-zinc-200"
+            className="font-sf-regular text-[50px] 2xl:text-[60px] font-bold text-zinc-800 dark:text-zinc-200"
             font="product-sans"
             weight="bold"
           >

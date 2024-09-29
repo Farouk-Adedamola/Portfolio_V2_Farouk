@@ -10,13 +10,13 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        'regular': ['var(--font-sf-regular)', 'sans-serif', 'system-ui'],
-        'medium': ['var(--font-sf-medium)', 'ui-monospace', 'SFMono-Regular'],
+        'sf-regular': ['var(--font-sf-regular)', 'sans-serif', 'system-ui'],
+        'sf-medium': ['var(--font-sf-medium)', 'ui-monospace', 'SFMono-Regular'],
         'product-sans': ['var(--font-product-sans)', 'ui-sans-serif', 'system-ui'],
       },
       screens: {
-        'sm': '640px',
-        'md': '768px',
+        // 'sm': '640px',
+        // 'md': '768px',
         'lg': '1024px',
         'xl': '1280px',
         '2xl': '1536px',

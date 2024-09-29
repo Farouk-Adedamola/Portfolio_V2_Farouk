@@ -3,7 +3,7 @@
 import Hero from "@/components/Hero/Hero";
 export default function Home() {
   return (
-    <section className="container flex justify-between">
+    <section className="2xl:max-w-1280px xl:max-w-1024px mx-auto">
       <Hero/>
     </section>
   );

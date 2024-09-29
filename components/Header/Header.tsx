@@ -25,16 +25,16 @@ const Header = () => {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-4 text-green-600 dark:text-white">
           <Link href="/" className="hover:text-primary-content font-briston">
-            <Text font='medium' className='-tracking-wide text-3xl text-black dark:text-primary' weight='semibold'  >Home</Text>
+            <Text font='sf-medium' className='-tracking-wide text-3xl text-black dark:text-primary' weight='semibold'  >Home</Text>
           </Link>
           <Link href="/about" className="hover:text-primary-content">
-            <Text font='regular' className=' -tracking-wide text-3xl' weight='semibold'  >Blog</Text>
+            <Text font='sf-regular' className=' -tracking-wide text-3xl' weight='semibold'  >Blog</Text>
           </Link>
           <Link href="/projects" className="hover:text-primary-content">
-            <Text font='regular' className=' -tracking-wide text-3xl' weight='semibold' >Projects</Text>
+            <Text font='sf-regular' className=' -tracking-wide text-3xl' weight='semibold' >Projects</Text>
           </Link>
           <Link href="/contact" className="hover:text-primary-content">
-            <Text font='regular' className=' -tracking-wide text-3xl' weight='semibold'  >About</Text>
+            <Text font='sf-regular' className=' -tracking-wide text-3xl' weight='semibold'  >About</Text>
           </Link>
           <Link href="/contact" className="hover:text-primary-content">
             <Text font='product-sans' className=' -tracking-wide text-3xl' weight='semibold'  >Contact</Text>

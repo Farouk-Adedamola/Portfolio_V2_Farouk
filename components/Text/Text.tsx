@@ -5,11 +5,11 @@ type Weight =  "normal" | "medium" | "bold" | "semibold";
 
 type Color = "primary" | "secondary" | "primary-light" | "primary-dark" | "secondary-light" | "secondary-dark";
 
-type Font = "regular" | "medium" | "product-sans";
+type Font = "sf-regular" | "sf-medium" | "product-sans";
     
 
 
-const Text = ({ children, className, weight = "normal", color = "primary", font = "regular" }: {
+const Text = ({ children, className, weight = "normal", color = "primary", font = "sf-regular" }: {
     children: React.ReactNode;
     className?: string;
     weight?: Weight;
@@ -33,8 +33,8 @@ const Text = ({ children, className, weight = "normal", color = "primary", font 
         medium: "font-medium",
     },
     font: {
-        "regular": "font-regular",
-        "medium": "font-medium",
+        "sf-regular": "font-sf-regular",
+        "sf-medium": "font-sf-medium",
         "product-sans": "font-product-sans",
     }
   };
